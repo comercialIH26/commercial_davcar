@@ -5,7 +5,7 @@ const phoneLabel = document.querySelector("[data-contact-phone]");
 const callLink = document.querySelector("[data-contact-call]");
 const whatsappLink = document.querySelector("[data-whatsapp]");
 if (CONTACT_PHONE && !CONTACT_PHONE.includes("X")) {
-  if (phoneLabel) phoneLabel.innerHTML = "+57 (311) 219-5510<br>+57 (319) 651-7890";
+  if (phoneLabel) phoneLabel.textContent = "+57 (311) 219-5510 / +57 (319) 651-7890";
   if (callLink) callLink.href = `tel:+${CONTACT_PHONE}`;
   if (whatsappLink) whatsappLink.href = `https://wa.me/${CONTACT_PHONE}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 }
