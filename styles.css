@@ -135,6 +135,7 @@ footer{padding:21px 7%;flex-wrap:wrap}footer>span{order:3;width:100%}}
 
 
 /* Cierre comercial y sección ambiental */
+
 .impact{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:8%;background:linear-gradient(115deg,#f5faf4,#fff)}
 .impact-copy p{max-width:480px;color:var(--muted);font-size:15px;line-height:1.8;margin:22px 0 27px}
 .impact-art{height:360px;position:relative;display:grid;place-items:center;overflow:hidden;border-radius:24px;background:radial-gradient(circle at 50% 48%,#e3f5e2 0,#f3faf2 54%,#eaf5e8 100%)}

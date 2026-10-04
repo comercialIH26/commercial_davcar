@@ -9,6 +9,7 @@ if (CONTACT_PHONE && !CONTACT_PHONE.includes("X")) {
   if (callLink) callLink.href = `tel:+${CONTACT_PHONE}`;
   if (whatsappLink) whatsappLink.href = `https://wa.me/${CONTACT_PHONE}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 }
+
 const toggle=document.querySelector(".menu-toggle");
 const nav=document.querySelector("#nav");
 toggle?.addEventListener("click",()=>{const open=nav.classList.toggle("open");toggle.setAttribute("aria-expanded",String(open));});
