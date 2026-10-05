@@ -134,17 +134,17 @@ footer{padding:21px 7%;flex-wrap:wrap}footer>span{order:3;width:100%}}
 @media(max-width:640px){.brand img{width:52px;height:52px}.product-photo{width:44%;height:180px}.story-visual{grid-column:1;grid-row:auto;margin:0}.story-visual img{height:150px}.story-points{grid-column:1;grid-row:auto}.story-copy{grid-column:1;grid-row:auto}.client-proof-image{width:100px}}
 
 
-/* Cierre comercial y sección ambiental */
-
-.impact{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:8%;background:linear-gradient(115deg,#f5faf4,#fff)}
-.impact-copy p{max-width:480px;color:var(--muted);font-size:15px;line-height:1.8;margin:22px 0 27px}
-.impact-art{height:360px;position:relative;display:grid;place-items:center;overflow:hidden;border-radius:24px;background:radial-gradient(circle at 50% 48%,#e3f5e2 0,#f3faf2 54%,#eaf5e8 100%)}
-.eco-orbit{position:absolute;width:270px;height:270px;border:1px solid #b9dcb5;border-radius:50%;box-shadow:0 0 0 35px #ffffff55,0 0 0 70px #ffffff35}
-.eco-drop{position:relative;width:132px;height:170px;z-index:2;background:linear-gradient(145deg,#56c5ed,#0876bd 75%);border-radius:70% 30% 65% 35%/65% 35% 65% 35%;transform:rotate(45deg);box-shadow:inset -12px -15px 25px #03488c55,0 22px 40px #087ac333}
-.eco-drop i{position:absolute;width:14px;height:65px;left:33px;top:26px;border-left:5px solid #ffffffaa;border-radius:50%;transform:rotate(8deg)}
-.eco-leaf{position:absolute;z-index:3;width:100px;height:52px;background:linear-gradient(130deg,#b4e95b,#278d38);border-radius:100% 0 100% 0;box-shadow:0 12px 20px #287d3020}
-.leaf-one{left:17%;bottom:92px;transform:rotate(25deg)}.leaf-two{right:15%;top:87px;transform:scaleX(-1) rotate(24deg)}
-.eco-caption{position:absolute;bottom:22px;left:22px;right:22px;padding:14px 18px;background:#ffffffdf;border:1px solid #fff;border-radius:12px;display:flex;justify-content:space-between;align-items:center;gap:10px;backdrop-filter:blur(8px)}
-.eco-caption b{font:700 12px Manrope;color:var(--navy)}.eco-caption span{font-size:10px;color:#6c8172}
-@media(max-width:760px){.impact{grid-template-columns:1fr;gap:28px}.impact-art{height:300px}.eco-caption{left:12px;right:12px;bottom:12px;flex-direction:column;align-items:flex-start;gap:3px}.hero{min-height:0}}
-@media(max-width:380px){.hero-actions .button{width:100%;justify-content:space-between}.hero-visual{margin-left:-38px;margin-right:-38px;transform:scale(.76)}.contact-number{grid-template-columns:1fr}.contact-number>a{justify-self:start}.brand{font-size:15px}}
+/* W Valve — innovación en ahorro de agua */
+.wvalve-section{padding:95px max(7%,calc((100% - 1160px)/2));background:#f7faf8;position:relative;overflow:hidden}
+.wvalve-container{max-width:1160px;margin:0 auto;display:grid;grid-template-columns:.9fr 1.1fr;align-items:center;gap:70px}
+.wvalve-copy{max-width:500px}
+.wvalve-copy .eyebrow{margin-bottom:20px}
+.wvalve-copy h2{font:800 clamp(38px,4.2vw,58px)/1.06 Manrope;color:var(--navy);letter-spacing:-.055em;margin:0 0 25px}
+.wvalve-copy h2 em{font-style:normal;color:var(--blue)}
+.wvalve-copy p{font-size:15px;line-height:1.75;color:var(--muted);margin:0 0 15px}
+.wvalve-copy strong{color:var(--navy)}
+.wvalve-cta{margin-top:10px}
+.wvalve-image-wrap{position:relative;padding:14px;background:#fff;border:1px solid #e2ebe5;border-radius:18px;box-shadow:0 20px 50px #153d1a12}
+.wvalve-image-wrap img{display:block;width:100%;height:auto;border-radius:11px}
+@media(max-width:900px){.wvalve-section{padding:78px 6%}.wvalve-container{grid-template-columns:1fr;gap:42px}.wvalve-copy{max-width:700px}.wvalve-image-wrap{max-width:760px;margin:0 auto}}
+@media(max-width:640px){.wvalve-section{padding:65px 7%}.wvalve-copy h2{font-size:clamp(36px,10vw,48px)}.wvalve-copy p{font-size:14px}.wvalve-cta{width:100%;justify-content:center;text-align:center}.wvalve-image-wrap{padding:8px;border-radius:14px}.wvalve-image-wrap img{border-radius:8px}}
